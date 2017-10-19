@@ -110,6 +110,7 @@ class Section
         $this->article->removeElement($article);
     }
 
+
     /**
      * Get article
      *
@@ -119,4 +120,5 @@ class Section
     {
         return $this->article;
     }
+
 }

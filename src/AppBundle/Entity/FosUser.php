@@ -100,6 +100,10 @@ class FosUser
 
 
 
+    public function __toString(){
+return $this->username ;
+
+}
     /**
      * Get id
      *
