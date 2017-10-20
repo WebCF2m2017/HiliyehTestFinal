@@ -176,4 +176,9 @@ class Article
     {
         return $this->section;
     }
+    public function __toString()
+    {
+       return $this->thetext ;
+    }
+
 }
